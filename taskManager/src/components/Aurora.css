@@ -1,0 +1,8 @@
+.aurora-container {
+  position: fixed;       /* Sticks it to the viewport */
+  inset: 0;              /* Full screen */
+  width: 100%;
+  height: 100%;
+  z-index: -1;           /* Pushes it behind your other elements */
+  pointer-events: none; /* Allows clicks through to content */
+}
